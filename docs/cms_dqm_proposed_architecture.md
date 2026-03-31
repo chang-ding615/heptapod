@@ -1,4 +1,5 @@
 # Proposed ML Folder Structure for CMS DQM in HEPTAPOD
+This design is motivated by my experience building scalable, physics-informed machine learning pipelines for noisy time-series data, and adapts these principles to CMS detector data quality monitoring.
 
 ## Goal
 Add a structured ML layer for CMS Data Quality Monitoring workflows covering:
