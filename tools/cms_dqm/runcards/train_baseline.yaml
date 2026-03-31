@@ -1,0 +1,15 @@
+workflow: cms_dqm_training
+data:
+  input_path: data/sample_dqm.csv
+  format: csv
+
+preprocessing:
+  numeric_only: true
+  fillna: 0.0
+
+model:
+  name: isolation_forest
+  random_state: 42
+
+output:
+  model_dir: outputs/baseline_model

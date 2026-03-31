@@ -1,0 +1,11 @@
+workflow: cms_dqm_realtime_inference
+data:
+  input_path: data/sample_dqm_stream.csv
+
+model:
+  model_dir: outputs/baseline_model
+
+alerting:
+  threshold_mode: model_default
+  save_predictions: true
+  output_path: outputs/realtime_predictions.csv
