@@ -18,6 +18,7 @@ Add a structured ML layer for CMS Data Quality Monitoring workflows covering:
 - human-in-the-loop review for anomaly alerts
 
 ## Proposed Directory Layout
+```
 heptapod/
 ├── tools/
 │   ├── cms_dqm/
@@ -61,6 +62,7 @@ heptapod/
 │       └── cms_dqm_workflow.md
 └── docs/
     └── cms_dqm_proposed_architecture.md
+```
 
 ## Workflow
 1. Access CMS DQM data
